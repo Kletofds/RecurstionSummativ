@@ -1,1 +1,18 @@
+###Where would recursion be the best option?###
+ 
+#Recursion would be the best option when you have something that needs to repeat with some
+#parameters inside of the repetition changing each time.
+ 
 
+###When would it not?###
+ 
+#Recursion wouldn’t be as good of an option if the part of code that is repeating stays the
+#same each time. This is because it could then be done much more efficiently using iteration
+#most of the time.
+ 
+
+###What are some specific examples of recursion that can work for you?###
+
+#I would use recursion if I was making a program like a fractal tree or any other drawing using
+#turtles where the parameters inside of the repetition need to be changed every time it is
+#repeated.
