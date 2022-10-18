@@ -1,1 +1,35 @@
+##########################################################
+# Create your own recursion
+# Kelton Figurski
+# Program that creates a random drawing using recursion
+###########################################################
 
+
+import turtle # imports the turtle module
+import random # imports the random module
+
+### Functions ###
+def drawing(repeat): # function that makes the drawing
+    t.speed(0) # sets speed of drawing to max
+    if repeat > 0: # ends after it repeats set amount of times
+        t.forward(length) # draws the length forward
+        t.right(angle1) # turns right by angle1
+        t.forward(length) # draws the length forward
+        t.left(angle2) # turns left by angle2
+        drawing(repeat - 1)
+
+### Variables ###
+t = turtle.Turtle()
+mywin = turtle.Screen()
+
+#### Main Code ###
+length = random.randint(50, 200) # makes the length a random value from 50 to 200
+angle1 = random.randint(1, 179) # makes the first angle a random value from 1 to 179
+angle2 = random.randint(1, 179) # makes the second angle a random value from 1 to 179
+
+
+drawing(100)# calls the function so it repeats 100 times
+t.up()
+t.goto(1000, 1000) # moves the cursor off the screen
+
+mywin.exitonclick() # exits the turtle screen when you click
