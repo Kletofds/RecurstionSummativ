@@ -85,3 +85,26 @@ t.goto(1000, 1000)
 t.down()
  
 myWin.exitonclick() # exits when you click
+
+
+
+###What is the difference between the recursive code and the iterative code?###
+ 
+#The recursive code and the iterative code are extremely different. The recursive code simply
+#just calls a function within itself to repeat a part of the code whereas the iterative code
+#uses a loop to do so. Because the program consists  of slightly changing the loop each time,
+#it makes the recursive code much more simple than  the iterative code, which is extremely
+#confusing.
+ 
+
+###How does the code execute differently in each?###
+ 
+#The recursive code is a very clean pattern that can draw the tree simply without having to
+#jump from one place to another and the iterative code is all over the place and consistently
+#is jumping from one part of the tree to another using goto’s.
+ 
+
+###What is the difference between recursion and iteration?##
+ 
+#Recursive calls a function within itself to repeat a part of code and iteration uses while
+#loops and ifs to repeat a part of code.
